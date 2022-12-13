@@ -1,0 +1,142 @@
+{% extends 'base.html'%}
+{% load static%}
+{%block content%}
+    <body id="page-top">
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0" style='color: black'>LESSONS LEARNED</h1>
+                    <h2 class="masthead-subheading mb-0" style='color: black' >From How to Win Friends and Influence People  </h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+                    {% comment %} <div>
+                        <br><br>
+                        <a class="btn btn-primary" href="{% url 'register' %}">Register An Account</a>
+                    </div> {% endcomment %}
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll" style='background-color: #f2c186'>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'img/book.jpeg'%}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class='display-4'>Our Purpose</h2>
+                                <p>
+                                    "Depict the lessons learned while reading and analzing the concepts
+                                    discussed in the Book 'How to Win Friends and Influence People in the form of mini skits"
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section style='background-color: #d1af93'>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'img/egg.jpg'%}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">People are Emotional</h2>
+                            <p><i> "When dealing with people, let us remember we are not dealing with creatures of logic. We are dealing with creatures of emotion, creatures bristling with prejudices and motivated by pride and vanity." </i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 3-->
+        <section style = 'background-color: #eed5b7'>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'img/success.jpg' %}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">The Secret of Success</h2>
+                                <p> <i> 
+                                    "If there is any one secret of success, 
+                                    it lies in the ability to get the other person's point of view 
+                                    and see things from that person's angle as well as from your own."
+                                </i></p>
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="scroll" style='background-color: #f2c186'>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'img/review.jpg'%}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class='display-4'>Criticism</h2>
+                                <p><i>"Criticism is futile because it puts a person on the defensive
+                                     and usually makes him strive to justify himself. Criticism is dangerous,
+                                      because it wounds a person's precious pride,
+                                       hurts his sense of importance, and arouses resentment.
+                                        …. Any fool can criticize, condemn and complain—and most fools do.
+                                         But it takes character and self-control to be understanding and forgiving."
+                                </i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section style='background-color: #d1af93'>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'img/mentor.jpg'%}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Everyone is a Mentor</h2>
+                            <p><i> "Every man I meet is my superior in some way. In that, I learn of him." </i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 3-->
+        <section style = 'background-color: #eed5b7'>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'img/fish.jpg' %}" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Respect Uniqueness</h2>
+                                <p> <i> 
+                                    “Personally I am very fond of strawberries and cream,
+                                     but I have found that for some strange reason, fish prefer worms.
+                                      So when I went fishing, I didn’t think about what I wanted.
+                                       I thought about what they wanted. I didn't bait the hook with strawberries and cream.
+                                        Rather, I dangled a worm or grasshopper in front of the fish and said:
+                                         "Wouldn't you like to have that?"
+                                    Why not use the same common sense when fishing for people?”
+                                </i></p>
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+{%endblock%}
